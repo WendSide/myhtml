@@ -1,0 +1,267 @@
+HTMLLL INDEX 
+ 
+<!DOCTYPE html> 
+<html lang="ru"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Продажа авто</title> 
+ <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+ <!-- Верхнее меню --> 
+ <div class="header"> 
+ <div class="logo">AUTOP</div> 
+ <div class="menu"> 
+ <a href="index.html">Главная</a> 
+ <a href="#">Каталог</a> 
+ <a href="#">О нас</a> 
+ <a href="#">Контакты</a> 
+ </div> 
+    </div>
+ 
+ <!-- Основная часть --> 
+ <div class="main"> 
+ <!-- Левое меню --> 
+ <div class="left-menu"> 
+ <div class="menu-title">МАРКИ</div> 
+ <ul> 
+ <li><a href="vaz2114.html">VAZ 2114</a></li> 
+ <li><a href="priora.html">PRIORA</a></li> 
+ </ul> 
+ 
+ <div class="menu-title">ЦЕНА</div> 
+            <ul>
+ <li><a href="#vaz2114">До 200 000</a></li> 
+ <li><a href="#vaz2114">До 100 000</a></li> 
+            </ul>
+        </div>
+ 
+        <!-- Блок с машинами -->
+        <div class="cars">
+ 
+            <div class="car-item">
+                <div class="car-image">
+                    <img src="https://50.img.avito.st/image/1/1.uy2Onba4F8S4NNXB9JPTFcI8FcIwPJXM-DkVxj40H844.bqDGKT8nemt1Ws1d2GEz83n-FkVh-SBzY1Is9zjISl8" alt="VAZ 2114 1">
+                </div>
+                <div class="car-name">ВАЗ 2114</div>
+                <div class="car-price"> 170 000 ₽</div>
+            </div>
+ 
+ 
+ <div class="car-item"> 
+ <div class="car-image"> 
+ <img src="https://80.img.avito.st/image/1/1.6UfF5ba4Ra7zTIerm4a6bYRER6h7RMems0FHrHVMTaRz.D4wu_OzB-4iDbViEt8DMreEaAeaaBvTSz0TIxD5ddqQ" alt="VAZ 2114 2"> 
+ </div> 
+ <div class="car-name">ВАЗ 2114</div> 
+ <div class="car-price"> 155 000 ₽</div> 
+            </div>
+ 
+ 
+            <div class="car-item">
+                <div class="car-image">
+ <img src="https://50.img.avito.st/image/1/1.-Prhgra4VBPXK5YWncG9lqAjVhVfI9YblyZWEVErXBlX.kpT4PxZDN3KQAZkMPKD--iY9wm0SbdH3TVElgbmWZxs" alt="VAZ 2114 3"> 
+                </div>
+                <div class="car-name">ВАЗ 2114</div>
+ <div class="car-price"> 85 000 ₽</div> 
+            </div>
+ 
+ <!-- Машина 4 - Audi Q7 --> 
+            <div class="car-item">
+                <div class="car-image">
+ <img src="https://80.img.avito.st/image/1/1.eGlTqra41IBlAxaFL-c-dBgL1obtC1aIJQ7WguMD3Irl.BsL3DAkL8bZ31uzaLJ9l6i3akRLnPlzzi8oLfZWJzO4" alt="Audi Q7"> 
+                </div>
+ <div class="car-name"> PRIORA </div> 
+ <div class="car-price">139 000 ₽</div> 
+            </div>
+ 
+ <!-- Машина 5 - Honda Accord --> 
+ <div class="car-item"> 
+ <div class="car-image"> 
+ <img src="https://00.img.avito.st/image/1/1.RWsWdLa46YIg3SuHEGF1Dl7V64So1WuKYNDrgKbd4Yig.Jldjnbv156J0vv4qZJr4eX5QSXDdKqnWdbOFNJnyh2c?cqp=2.TSzMy-m0u9ojo94xoNTr4TIkcUBjMu1L_y5Z6Lr-VHA-3xfoRpsvf1jN4IBF36LEO13sxOCjYv9KRoXzpmAFvKTQ" alt="Honda Accord"> 
+ </div> 
+ <div class="car-name"> PRIORA </div> 
+ <div class="car-price"> 155 000 ₽</div> 
+            </div>
+ 
+ <!-- Машина 6 - Kia K5 --> 
+            <div class="car-item">
+                <div class="car-image">
+ <img src="https://80.img.avito.st/image/1/1.-mFGLLa4VohwhZSNPkfYSg2NVI74jdSAMIhUivaFXoLw.z7LnmwnPHQWcXpnQ0AYvyecMbn97ifrADfHPQD6iiWw" alt="Kia K5"> 
+                </div>
+ <div class="car-name"> PRIORA</div> 
+ <div class="car-price"> 193 000 ₽</div> 
+            </div>
+        </div>
+    </div>
+ 
+ <!-- Подвал --> 
+ <div class="footer"> 
+ © 2025 AutoMarket. Все права защищены. 
+    </div>
+</body> 
+</html> 
+ 
+CSS 
+ 
+* {
+ margin: 0; 
+ padding: 0; 
+ box-sizing: border-box; 
+ font-family: Arial, sans-serif; 
+}
+ 
+/* Стили для фиксации футера внизу страницы */ 
+html, body { 
+ height: 100%; 
+ margin: 0; 
+ padding: 0; 
+}
+ 
+body { 
+ display: flex; 
+ flex-direction: column; 
+ min-height: 100vh; 
+ background: #f0f0f0; 
+}
+ 
+.header { 
+ background: #000; 
+ color: #fff; 
+ padding: 20px; 
+    display: flex;
+ justify-content: space-between; 
+ align-items: center; 
+ flex-shrink: 0; 
+}
+ 
+.logo { 
+ font-size: 24px; 
+ font-weight: bold; 
+ color: orange; 
+}
+ 
+.menu a { 
+ color: #fff; 
+ text-decoration: none; 
+ margin-left: 20px; 
+}
+ 
+.menu a:hover { 
+ color: orange; 
+}
+ 
+.main { 
+ display: flex; 
+ padding: 20px; 
+ max-width: 1200px; 
+ margin: 0 auto; 
+ width: 100%; 
+ flex: 1 0 auto; /* Основная часть растягивается */ 
+}
+ 
+.left-menu { 
+ width: 250px; 
+ background: #fff; 
+    padding: 20px;
+ margin-right: 20px; 
+ border-radius: 5px; 
+ box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+ height: fit-content; 
+}
+ 
+.menu-title { 
+ font-weight: bold; 
+ margin: 15px 0 10px 0; 
+ border-bottom: 2px solid orange; 
+ padding-bottom: 5px; 
+}
+ 
+.menu-title:first-child { 
+ margin-top: 0; 
+}
+ 
+.left-menu ul { 
+ list-style: none; 
+}
+ 
+.left-menu li { 
+ padding: 8px 0; 
+ border-bottom: 1px solid #eee; 
+}
+ 
+.left-menu a { 
+ text-decoration: none; 
+ color: #333; 
+ display: block; 
+ width: 100%; 
+}
+ 
+.left-menu a:hover { 
+ color: orange; 
+ padding-left: 5px; 
+}
+ 
+.cars { 
+ flex: 1; 
+ display: flex; 
+ flex-wrap: wrap; 
+ gap: 20px; 
+ align-content: flex-start; /* Карточки не растягиваются */ 
+}
+ 
+.car-item { 
+ width: calc(33.333% - 14px); 
+ background: #fff; 
+ border-radius: 5px; 
+ overflow: hidden; 
+ box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+ transition: 0.3s; 
+}
+ 
+.car-item:hover { 
+ transform: translateY(-5px); 
+ box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+}
+ 
+.car-image { 
+ height: 170px; 
+ width: 100%; 
+ overflow: hidden; 
+ background: #f0f0f0; 
+}
+ 
+.car-image img { 
+ width: 100%; 
+ height: 100%; 
+ object-fit: cover; 
+ display: block; 
+ transition: 0.3s; 
+}
+ 
+.car-item:hover .car-image img { 
+ transform: scale(1.05); 
+}
+ 
+.car-name { 
+ padding: 15px 15px 5px 15px; 
+ font-weight: bold; 
+ font-size: 18px; 
+}
+ 
+.car-price { 
+ padding: 0 15px 15px 15px; 
+ color: orange; 
+ font-size: 20px; 
+ font-weight: bold; 
+}
+ 
+.footer { 
+ background: #000; 
+ color: #fff; 
+ text-align: center; 
+ padding: 20px; 
+ flex-shrink: 0; /* Футер не сжимается */ 
+ width: 100%; 
+ margin-top: auto; /* Прижимает футер к низу */ 
+}
